@@ -28,3 +28,16 @@ int PermutatedArray2DimList::getPermutationCount()
 {
     return this->permutationCount;
 }
+
+int PermutatedArray2DimList::factorial(int n)
+{
+    if(n <= 0)
+        return 1; // safeguard 0 and -ve
+    
+    int res = n;
+    
+    while(--n > 1)
+        res *= n;
+    
+    return res;
+}

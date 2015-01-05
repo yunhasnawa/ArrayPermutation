@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37245AB2-BC26-4098-8736-7B1FAAC4C541</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArrayPermutation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99CD0615C31876C1872B3EE3D98614039B15A216</key>
+		<string>https://github.com/yunhasnawa/ArrayPermutation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ArrayPermutation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99CD0615C31876C1872B3EE3D98614039B15A216</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yunhasnawa/ArrayPermutation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99CD0615C31876C1872B3EE3D98614039B15A216</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99CD0615C31876C1872B3EE3D98614039B15A216</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArrayPermutation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

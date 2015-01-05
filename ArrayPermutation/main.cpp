@@ -9,8 +9,7 @@
 #include <iostream>
 #include "Array2Dim.h"
 
-void printArray2Dim(Array2Dim* array2Dim, int array1DimLength);
-void printAllPermutations(PermutatedArray2DimList* pa2d);
+void printPermutations(PermutatedArray2DimList* pa2d);
 
 int main(int argc, const char * argv[])
 {
@@ -26,12 +25,12 @@ int main(int argc, const char * argv[])
     
     PermutatedArray2DimList* pa2d = array2Dim->allPermutations();
     
-    //printAllPermutations(pa2d);
+    printPermutations(pa2d);
     
     return 0;
 }
 
-void printAllPermutations(PermutatedArray2DimList* pa2d)
+void printPermutations(PermutatedArray2DimList* pa2d)
 {
     Array2Dim** permutatedArray2Dims = pa2d->getArray2DimList();
     

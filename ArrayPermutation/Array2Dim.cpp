@@ -73,7 +73,7 @@ PermutatedArray2DimList* Array2Dim::allPermutations()
     }
     
     // Then, Create all possible permutations and append to list of Array2Dim objects.
-    Array2Dim** permutated2DimList = new Array2Dim*;
+    Array2Dim** permutated2DimList = new Array2Dim*[PermutatedArray2DimList::factorial(this->length)];
     
     int permutationCount = 0;
     
@@ -88,15 +88,13 @@ PermutatedArray2DimList* Array2Dim::allPermutations()
             permutated2Dim->push(this->array1DimAtIndex(permutatedIndex));
         }
         
-        permutated2Dim->print(3);
-        
         permutated2DimList[permutationCount] = permutated2Dim;
         
         permutationCount++;
     }
     while (std::next_permutation(indexList, (indexList + this->length)));
     
-    // Save to a struct to keep the number of permutations
+    // Save to a class to keep the number of permutations
     PermutatedArray2DimList* pa2d = new PermutatedArray2DimList(permutated2DimList, permutationCount);
     
     return pa2d;

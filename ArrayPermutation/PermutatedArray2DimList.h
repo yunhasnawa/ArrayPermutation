@@ -20,6 +20,7 @@ public:
     virtual ~PermutatedArray2DimList();
     Array2Dim** getArray2DimList();
     int getPermutationCount();
+    static int factorial(int n);
     
 private:
     Array2Dim** array2DimList;
