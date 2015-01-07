@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 Yoppy Yunhasnawa. All rights reserved.
 //
 
-#include <cstdlib>
 #include "PermutatedArray2DimList.h"
+#include <cstdlib>
+#include <time.h>
 
 PermutatedArray2DimList::PermutatedArray2DimList(Array2Dim** array2DimList, int permutationCount)
 {
@@ -35,7 +36,13 @@ Array2Dim* PermutatedArray2DimList::randomArray2Dim()
     int min = 0;
     int max = this->permutationCount - 1;
 
+    srand (time(NULL)); //initialize random seed
+    // Generate random number between min and max
     int randomIndex = min + (rand() % (int)(max - min + 1));
+
+    printf("-----------------------\n");
+    printf("Generating random index: %d", randomIndex);
+    printf("\n-----------------------");
 
     Array2Dim* random2Dim = this->array2DimList[randomIndex];
 
